@@ -1,7 +1,19 @@
 .places_place__paragraph {
-  margin: 0 0 0 40px;
+  margin: 0;
   font-style: normal;
   font-weight: normal;
   font-size: 1.125em;
   line-height: 163%;
+}
+
+@media screen and (max-width: 920px) {
+  .places_place__paragraph {
+    font-size: 1em;
+ }
+}
+
+@media screen and (max-width: 600px) {
+  .places_place__paragraph {
+      margin: 0 16px 16px 0;
+ }
 }

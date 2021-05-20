@@ -4,3 +4,10 @@
   color: #FFFFFF;
   text-decoration-line: underline;
 }
+
+@media screen and (max-width: 600px) {
+  .header__lang-link-ru {
+    font-size: 1.125em;
+    line-height: 1.25rem;
+ }
+}

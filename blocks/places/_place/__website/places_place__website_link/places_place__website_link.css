@@ -6,4 +6,9 @@
   line-height: 1.375rem;
   text-decoration-line: underline;
   color: #FFFFFF;
+  transition: opacity .4s ease-out;
 }
+
+.places_place__website_link:hover {
+  opacity: 0.8;
+  }
