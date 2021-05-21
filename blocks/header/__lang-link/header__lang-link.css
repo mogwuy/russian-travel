@@ -1,4 +1,4 @@
-.header__lang-link-en {
+.header__lang-link {
   margin-left: 18px;
   font-size: 1.5em;
   line-height: 1.75rem;
@@ -7,12 +7,12 @@
   transition: opacity .4s ease-out;
   }
 
-  .header__lang-link-en:hover {
+  .header__lang-link:hover {
     opacity: 0.8;
     }
 
   @media screen and (max-width: 600px) {
-    .header__lang-link-en {
+    .header__lang-link {
       font-size: 1.125em;
       line-height: 1.25rem;
    }
