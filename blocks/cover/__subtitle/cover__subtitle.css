@@ -7,18 +7,13 @@
   text-align: center;
   grid-column: 1/1;
   grid-row: 1/1;
-  margin: 37% auto 0;
+  margin: 10% auto 0;
 }
 
-@media screen and (max-width: 920px) {
-    .cover__subtitle  {
-        margin: 34% auto 0;
-    }
-}
 
 @media screen and (max-width: 670px) {
     .cover__subtitle {
-        width: 288px;
+        width: 230px;
         font-size: 0.875em;
         line-height: 1rem;
     }
@@ -26,8 +21,8 @@
 
 @media screen and (max-width: 400px) {
     .cover__subtitle {
-        width: 288px;
-        margin: 119px auto 0;
+        width: 230px;
+        margin: 6px auto 0;
         font-size: 0.875em;
         line-height: 1rem;
     }

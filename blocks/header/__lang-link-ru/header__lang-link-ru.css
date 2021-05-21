@@ -3,7 +3,12 @@
   line-height: 1.75rem;
   color: #FFFFFF;
   text-decoration-line: underline;
+  transition: opacity .4s ease-out;
 }
+
+.header__lang-link-ru:hover {
+  opacity: 0.8;
+  }
 
 @media screen and (max-width: 600px) {
   .header__lang-link-ru {

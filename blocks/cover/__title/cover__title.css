@@ -7,27 +7,19 @@
   text-align: center;
   grid-column: 1/1;
   grid-row: 1/1;
-  margin: 20% auto 0;
-}
-
-@media screen and (max-width: 920px) {
-    .cover__title {
-        margin: 10% auto 0;
-    }
+  margin: 0;
 }
 
 @media screen and (max-width: 630px) {
     .cover__title {
-        width: 288px;
-        margin: 15% auto 0;
+        width: 230px;
         font-size: 2em;
         line-height: 2.125rem;
    }
   }
 @media screen and (max-width: 400px) {
     .cover__title {
-        width: 288px;
-        margin: 33px auto 0;
+        width: 230px;
         font-size: 2em;
         line-height: 2.125rem;
    }
