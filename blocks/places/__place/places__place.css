@@ -1,4 +1,4 @@
-.places_place {
+.places__place {
   margin-top: 80px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -7,14 +7,14 @@
 }
 
 @media screen and (max-width: 920px) {
-  .places_place {
+  .places__place {
     margin-top: 73px;
     gap: 28px;
  }
 }
 
 @media screen and (max-width: 600px) {
-  .places_place {
+  .places__place {
     margin-top: 64px;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: minmax(min-content, max-content);
