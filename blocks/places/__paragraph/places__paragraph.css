@@ -14,6 +14,7 @@
 
 @media screen and (max-width: 600px) {
   .places__paragraph {
+      width: 340px;
       margin: 0 16px 16px 0;
  }
 }
