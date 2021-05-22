@@ -5,9 +5,11 @@
   font-size: 1.125em;
   line-height: 1.375rem;
   text-align: center;
-  grid-column: 1/1;
-  grid-row: 1/1;
-  margin: 10% auto 0;
+  text-decoration-line: none;
+  color: #FFFFFF;
+  display: block;
+  position: relative;
+  margin: 18% auto;
 }
 
 
@@ -21,8 +23,8 @@
 
 @media screen and (max-width: 400px) {
     .cover__subtitle {
+        margin: 13% auto;
         width: 230px;
-        margin: 6px auto 0;
         font-size: 0.875em;
         line-height: 1rem;
     }

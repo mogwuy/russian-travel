@@ -5,9 +5,12 @@
   font-size: 4.5em;
   line-height: 4.75rem;
   text-align: center;
-  grid-column: 1/1;
-  grid-row: 1/1;
-  margin: 0;
+  text-decoration-line: none;
+  color: #FFFFFF;
+  display: block;
+  position: relative;
+  top: 28%;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 630px) {
@@ -19,6 +22,7 @@
   }
 @media screen and (max-width: 400px) {
     .cover__title {
+        top: 15%;
         width: 230px;
         font-size: 2em;
         line-height: 2.125rem;
