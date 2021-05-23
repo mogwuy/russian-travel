@@ -5,12 +5,17 @@
   font-size: 4.5em;
   line-height: 4.75rem;
   text-align: center;
-  text-decoration-line: none;
   color: #FFFFFF;
   display: block;
   position: relative;
   top: 33%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+       top: 30.5%;
+ }
 }
 
 @media screen and (max-width: 630px) {
@@ -20,6 +25,7 @@
         line-height: 2.125rem;
    }
   }
+
 @media screen and (max-width: 400px) {
     .cover__title {
         top: 15%;

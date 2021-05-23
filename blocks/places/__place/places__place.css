@@ -6,6 +6,13 @@
   gap: 40px;
 }
 
+@media screen and (max-width: 1024px) {
+  .places__place {
+    gap: 32px;
+    margin-top: 50px;
+ }
+}
+
 @media screen and (max-width: 920px) {
   .places__place {
     margin-top: 73px;
@@ -13,7 +20,7 @@
  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 760px) {
   .places__place {
     margin-top: 64px;
     grid-template-columns: repeat(1, 1fr);

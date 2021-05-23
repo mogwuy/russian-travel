@@ -7,6 +7,14 @@
   gap: 16px;
 }
 
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    margin: 88px 48px 0 48px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+ }
+}
+
 @media screen and (max-width: 920px) {
   .photo-grid {
     margin: 88px 24px 0 24px;
