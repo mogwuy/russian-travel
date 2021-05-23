@@ -5,13 +5,17 @@
   font-size: 1.125em;
   line-height: 1.375rem;
   text-align: center;
-  text-decoration-line: none;
   color: #FFFFFF;
   display: block;
   position: relative;
   margin: 23.5% auto;
 }
 
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        margin: 22.3% auto;
+    }
+}
 
 @media screen and (max-width: 670px) {
     .cover__subtitle {

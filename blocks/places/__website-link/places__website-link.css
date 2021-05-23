@@ -1,5 +1,5 @@
 .places__website-link {
-  font-family: Inter;
+  font-family: 'Inter', ‘Arial’, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.125em;
@@ -12,3 +12,10 @@
 .places__website-link:hover {
   opacity: 0.8;
   }
+
+  @media screen and (max-width: 630px) {
+    .places__paragraph {
+     margin: 0 16px 16px 0;
+   }
+  }
+  
