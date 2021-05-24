@@ -3,20 +3,13 @@
   max-width: 690px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-@media screen and (max-width: 800px) {
-=======
-=======
 @media screen and (max-width: 1024px) {
   .intro {
       margin: 92px 0 0 48px;
  }
 }
 
->>>>>>> gh-pages
 @media screen and (max-width: 810px) {
->>>>>>> gh-pages
   .intro {
     margin: 87px 24px 0 24px;
  }
