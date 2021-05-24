@@ -1,11 +1,29 @@
 .places__website {
   align-self: end;
   justify-self: start;
-  margin: 0 0 8px 0;
+  margin: 0 0 36px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__website {
+    margin: 0;
+ }
 }
 
 @media screen and (max-width: 600px) {
   .places__website {
     margin: 0;
+ }
+}
+
+@media screen and (max-width: 600px) {
+  .places__website {
+    margin: 0;
+ }
+}
+
+@media screen and (max-width: 380px) {
+  .places__website {
+    margin: 0 16px 0 16px;
  }
 }

@@ -1,20 +1,27 @@
 .lead__image {
   margin: 64px 20px 0 20px;
   max-width: 984px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__image {
-    margin: 56px 48px 0 48px;
-    width: 928px;
-    height: 580px;
+    margin: 56px 0 0 48px;
+    max-width: 928px;
+    max-height: 580px;
  }
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 993px) {
   .lead__image {
-    width: 768px;
-    height: 480px;
+    width: 90%;
+ }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    width: 100%;
+    margin: 56px 0 0 0;
  }
 }
 

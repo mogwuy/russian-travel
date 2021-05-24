@@ -2,3 +2,9 @@
   text-align: right;
   margin-top: 20px;
 }
+
+@media screen and (max-width: 420px) {
+  .header__lang-links {
+    margin-top: 15px;
+ }
+}
