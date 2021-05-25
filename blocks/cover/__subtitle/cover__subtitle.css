@@ -8,18 +8,18 @@
   color: #FFFFFF;
   display: block;
   position: relative;
-  margin: 23.5% auto;
+  margin: 278px auto;
 }
 
 @media screen and (max-width: 1024px) {
     .cover__subtitle {
-        margin: 22.3% auto;
+        margin: 227px auto;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__subtitle {
-        margin: 19.3% auto;
+        margin: 148px auto;
     }
 } 
 
@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 400px) {
     .cover__subtitle {
-        margin: 16% auto;
+        margin: 50px auto;
         width: 265px;
         font-size: 0.875em;
         line-height: 1rem;
